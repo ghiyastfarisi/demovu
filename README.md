@@ -1,6 +1,6 @@
-# basicnuxt
+# demovu
 
-> my basic nuxt with bulma framework
+> basic nuxt initial bootstrap with bulma UI framework
 
 ## Build Setup
 
