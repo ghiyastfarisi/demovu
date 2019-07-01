@@ -1,35 +1,21 @@
 <template>
-  <section class="container">
-    <div>
-      <h2 class="subtitle">
-        demovu
-      </h2>
-    </div>
+  <section class="container is-fullhd">
+    <topbar/>
+    <leftbar/>
   </section>
 </template>
 
 <script>
+import topbar from '~/components/topbar';
+import leftbar from '~/components/leftbar';
+
 export default {
-  components: {}
+  components: {
+    topbar,
+    leftbar
+  }
 }
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
+<style scoped>
 </style>
